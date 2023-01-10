@@ -1,0 +1,65 @@
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col">
+
+            <div class="h1 float-start mt-5">Relatório</div><br>
+        </div>
+        <div class="row">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Id do Cliente</th>
+                        <th scope="col">Nome do Cliente</th>
+                        <th scope="col">Tipo de Movimentação</th>
+                        <th scope="col">Codigo do Conteiner</th>
+                        <th scope="col">Data Inicial</th>
+                        <th scope="col">Data Final</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let movimentacao of movimentacoes">
+                        <th>{{movimentacao.clienteId}}</th>
+                        <td>{{movimentacao.clienteNome}}</td>
+                        <td>{{movimentacao.tipoMov | movement}}</td>
+                        <td>{{movimentacao.codigoConteiner}}</td>
+                        <td>{{movimentacao.dtInicio}}</td>
+                        <td>{{movimentacao.dtFinal}}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Total de Movimentações</th>
+                        <th scope="col">Total de Importações</th>
+                        <th scope="col">Total de Exportações</th>
+                        <th scope="col">Total de Conteiners</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            {{TotalMov}}
+                        </td>
+                        <td>
+                            {{TotalImportation}}
+                        </td>
+                        <td>
+                            {{TotalExportation}}
+                        </td>
+                        <td>
+                            {{TotalCont}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

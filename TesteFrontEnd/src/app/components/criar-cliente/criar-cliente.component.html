@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="mt-5 mb-5">
+                <p class="h1">Criar Cliente</p>
+            </div>
+            <form [formGroup]="clientForm" (ngSubmit)="onSubmit()">
+                <div class="mb-5">
+                    <label for="form-nome-cliente" class="form-label">Nome do Cliente</label>
+                    <input type="text" class="form-control w-25" formControlName="nome" id="form-nome-cliente"
+                        aria-describedby="form-nome-cliente" [ngClass]="{'is-invalid':f['nome'].errors}">
+
+                    <div class="invalid-feedback" *ngIf="f['nome'].errors">
+                        <div *ngIf="f['nome'].errors['required']"> O nome é obrigatório</div>
+                    </div>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\bin\Debug\net6.0\TesteBackEnd.Infra.deps.json
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\bin\Debug\net6.0\TesteBackEnd.Infra.runtimeconfig.json
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\bin\Debug\net6.0\TesteBackEnd.Infra.dll
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\bin\Debug\net6.0\TesteBackEnd.Infra.pdb
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\bin\Debug\net6.0\TesteBackEnd.Core.dll
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\bin\Debug\net6.0\TesteBackEnd.Core.pdb
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\obj\Debug\net6.0\TesteBackEnd.Infra.csproj.AssemblyReference.cache
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\obj\Debug\net6.0\TesteBackEnd.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\obj\Debug\net6.0\TesteBackEnd.Infra.AssemblyInfoInputs.cache
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\obj\Debug\net6.0\TesteBackEnd.Infra.AssemblyInfo.cs
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\obj\Debug\net6.0\TesteBackEnd.Infra.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\obj\Debug\net6.0\TesteBackEnd.Infra.csproj.CopyComplete
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\obj\Debug\net6.0\TesteBackEnd.Infra.dll
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\obj\Debug\net6.0\refint\TesteBackEnd.Infra.dll
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\obj\Debug\net6.0\TesteBackEnd.Infra.pdb
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\obj\Debug\net6.0\TesteBackEnd.Infra.genruntimeconfig.cache
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Infra\obj\Debug\net6.0\ref\TesteBackEnd.Infra.dll

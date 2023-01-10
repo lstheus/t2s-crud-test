@@ -1,0 +1,42 @@
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col">
+
+            <div class="h1 float-start mt-5">Conteiner</div>
+
+        </div>
+        <div class="col">
+
+            <button type="button" class="btn btn-primary w-25 float-end mt-5" routerLink='/criareditarconteiner'>Criar</button>
+        </div>
+        <div class="row">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Codigo do Conteiner</th>
+                        <th scope="col">Tipo</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Categoria</th>
+                        <th scope="col">Id do Cliente</th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let conteiner of conteiners" >
+                        <th scope="row">{{conteiner.codigo}}</th>
+                        <td>{{conteiner.tipo | type}}</td>
+                        <td>{{conteiner.status | status}}</td>
+                        <td>{{conteiner.categoria | category}}</td>
+                        <td>{{conteiner.clienteId}}</td>
+                        <td><button type="button" class="btn btn-success w-50" routerLink='/criareditarconteiner/{{conteiner.codigo}}'>Editar</button></td>
+                        <td><button type="button" class="btn btn-danger w-50" (click)="onDelete(conteiner.codigo)">Deletar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

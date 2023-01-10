@@ -1,0 +1,45 @@
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col">
+
+            <div class="h1 float-start mt-5">Movimentações</div>
+
+        </div>
+        <div class="col">
+
+            <button type="button" class="btn btn-primary w-25 float-end mt-5"
+                routerLink="/criareditarmovimentacao">Criar</button>
+        </div>
+        <div class="row">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Tipo de Movimentação</th>
+                        <th scope="col">Data Inicial</th>
+                        <th scope="col">Data Final</th>
+                        <th scope="col">Codigo do Conteiner</th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let movimentacao of movimentacoes">
+                        <th scope="row">{{movimentacao.id}}</th>
+                        <td>{{movimentacao.tipoMov | movement }}</td>
+                        <td>{{movimentacao.dtInicio}}</td>
+                        <td>{{movimentacao.dtFinal}}</td>
+                        <td>{{movimentacao.codigoConteiner}}</td>
+
+                        <td><button type="button" class="btn btn-success w-50" routerLink="/criareditarmovimentacao/{{movimentacao.id}}">Editar</button></td>
+                        <td><button type="button" class="btn btn-danger w-50"  (click)="onDelete(movimentacao.id)">Deletar</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

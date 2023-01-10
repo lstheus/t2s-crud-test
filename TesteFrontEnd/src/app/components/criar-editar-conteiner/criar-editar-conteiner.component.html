@@ -1,0 +1,67 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="mt-5 mb-5">
+                <p class="h1" *ngIf="isAddMode">Criar Conteiner</p>
+                <p class="h1" *ngIf="!isAddMode">Editar Conteiner</p>
+            </div>
+            <form [formGroup]="conteinerForm" (ngSubmit)="onSubmit()">
+                <div class="mb-3">
+                    <label for="form-codigo-conteiner" class="form-label">Codigo do Conteiner</label>
+                    <input type="text" class="form-control w-25" maxlength="11" id="form-codigo-conteiner"
+                        formControlName="codigo" [ngClass]="{'is-invalid': submitted && f['codigo'].errors}">
+
+                    <div class="invalid-feedback" *ngIf="submitted && f['codigo'].errors">
+                        <div *ngIf=" submitted && f['codigo'].errors['required']"> O Código do Conteiner é obrigatório
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="form-id-cliente" class="form-label">Id do Cliente</label>
+                    <input type="text" class="form-control w-25" id="form-id-cliente" formControlName="clienteId"
+                        [ngClass]="{'is-invalid': submitted && f['clienteId'].errors}">
+
+                    <div class="invalid-feedback" *ngIf="submitted && f['clienteId'].errors">
+                        <div *ngIf=" submitted && f['clienteId'].errors['required']"> O Id do Cliente é obrigatório</div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="form-select-tipo">Tipo</label>
+                    <select class="form-select form-select-md mb-3 w-25 mt-2" id="form-select-tipo"
+                        aria-label="form-select-lg" formControlName="tipo"
+                        [ngClass]="{'is-invalid': submitted && f['tipo'].errors}">
+                        <option selected value="1">20</option>
+                        <option value="2">40</option>
+                    </select>
+                    <div class="invalid-feedback" *ngIf="submitted && f['tipo'].errors">
+                        <div *ngIf=" submitted && f['tipo'].errors['required']"> O tipo do cliente é obrigatório</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="form-select-status">Status</label>
+                    <select class="form-select form-select-md mb-3 w-25 mt-2" id="form-select-status"
+                        aria-label="form-select-lg" formControlName="status"  [ngClass]="{'is-invalid': submitted && f['status'].errors}">
+                        <option selected value="1">Cheio</option>
+                        <option value="2">Vazio</option>
+                    </select>
+                     <div class="invalid-feedback" *ngIf="submitted && f['status'].errors">
+                        <div *ngIf=" submitted && f['status'].errors['required']"> O status do Conteiner é obrigatório</div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="form-select-tipo">Categoria</label>
+                    <select class="form-select form-select-md mb-3 w-25 mt-2" id="form-select-categoria"
+                        aria-label="form-select-lg" formControlName="categoria"  [ngClass]="{'is-invalid': submitted && f['categoria'].errors}">
+                        <option selected value="1">Importação</option>
+                        <option value="2">Exportação</option>
+                    </select>
+                     <div class="invalid-feedback" *ngIf="submitted && f['categoria'].errors">
+                        <div *ngIf=" submitted && f['categoria'].errors['required']"> A categoria do Conteiner é obrigatório</div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

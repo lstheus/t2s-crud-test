@@ -1,0 +1,15 @@
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\bin\Debug\net6.0\TesteBackEnd.Application.deps.json
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\bin\Debug\net6.0\TesteBackEnd.Application.dll
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\bin\Debug\net6.0\TesteBackEnd.Application.pdb
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\obj\Debug\net6.0\TesteBackEnd.Application.csproj.AssemblyReference.cache
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\obj\Debug\net6.0\TesteBackEnd.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\obj\Debug\net6.0\TesteBackEnd.Application.AssemblyInfoInputs.cache
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\obj\Debug\net6.0\TesteBackEnd.Application.AssemblyInfo.cs
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\obj\Debug\net6.0\TesteBackEnd.Application.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\obj\Debug\net6.0\TesteBackEnd.Application.dll
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\obj\Debug\net6.0\refint\TesteBackEnd.Application.dll
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\obj\Debug\net6.0\TesteBackEnd.Application.pdb
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\obj\Debug\net6.0\ref\TesteBackEnd.Application.dll
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\bin\Debug\net6.0\TesteBackEnd.Core.dll
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\bin\Debug\net6.0\TesteBackEnd.Core.pdb
+C:\Users\mathe\source\Teste\TesteBackEnd\TesteBackEnd.Application\obj\Debug\net6.0\TesteBackEnd.Application.csproj.CopyComplete

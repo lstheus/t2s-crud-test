@@ -1,0 +1,31 @@
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col">
+
+            <div class="h1 float-start mt-5">Clientes</div>
+
+        </div>
+        <div class="col">
+            <button type="button" class="btn btn-primary w-25 float-end mt-5" routerLink='/criarcliente'>Criar</button>
+        </div>
+        <div class="row">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome do Cliente</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor ="let client of clientes">
+                        <th scope="row">{{client.id}}</th>
+                        <td>{{client.nome}}</td>
+        
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
